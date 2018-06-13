@@ -3,8 +3,8 @@ const callback = function (name, driver) {
   console.log(driver.name)
 }
 
-const logDriverNames = function (driver, callback) {
+const logDriverNames = function (driver, cb) {
   for (const name of driver) {
-    callback(name, driver)
+    cb(name, driver)
   }
 }
