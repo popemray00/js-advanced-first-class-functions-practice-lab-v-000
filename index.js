@@ -21,5 +21,7 @@ const driversByRevenue = function (driver) {
 }
 
 const driversByName = function (driver) {
-  return driver.name.sort()
+  return driver.sort(function (name) {
+    return driver.name
+  })
 }
