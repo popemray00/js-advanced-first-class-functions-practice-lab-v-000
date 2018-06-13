@@ -13,3 +13,7 @@ const logDriversByHometown = function (driver, hometown) {
     }
   })
 }
+
+const driversByRevenue = function (driver) {
+  driver.sort()
+}
