@@ -6,7 +6,7 @@ const callback = function (el, i, arr) {
   console.log('----------------');
 };
 
-const logDriverNames = function (arr, cb) {
+const logDriverNames = function (arr, callback) {
   for (const el of arr) {
     cb(el, arr.indexOf(el), arr);
   }
