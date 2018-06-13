@@ -1,8 +1,8 @@
 // Code your solution in this file
-const callback = function (el, i, arr) {
-  console.log('The current element is', el);
+const logDriverNames = function (name, i, driver) {
+  console.log('The current element is', name);
   console.log('The index of the current element is', i);
-  console.log('The current array is', arr);
+  console.log('The current array is', driver);
   console.log('----------------');
 };
 
