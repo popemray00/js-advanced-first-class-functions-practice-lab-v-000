@@ -15,5 +15,7 @@ const logDriversByHometown = function (driver, hometown) {
 }
 
 const driversByRevenue = function (driver) {
-  driver.sort()
+  if (driver.revenue < revenue -1) {
+    driver.sort()
+  }
 }
