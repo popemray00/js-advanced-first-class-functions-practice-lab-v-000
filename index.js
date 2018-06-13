@@ -5,7 +5,3 @@ const logDriverNames = function (name, i, driver) {
   console.log('The current array is', driver);
   console.log('----------------');
 };
-
-const logDriverNames = function (driver) {
-  console.log(driver.name);
-}
