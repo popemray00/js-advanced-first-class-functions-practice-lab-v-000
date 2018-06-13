@@ -1,4 +1,4 @@
 // Code your solution in this file!
 const logDriverNames = function (drivers) {
-  return drivers.sort()
+  return drivers.name.sort()
 }
