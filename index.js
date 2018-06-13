@@ -7,5 +7,5 @@ function logDriverNames(driver) {
 }
 
 function logDriversByHometown(driver, hometown) {
-  driver.forEach(callback)
+  driver.hometown.forEach(callback)
 }
