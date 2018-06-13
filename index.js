@@ -1,4 +1,4 @@
 // Code your solution in this file!
-const logDriverNames = function (drivers) {
-  return drivers.name
+const logDriverNames = function (driver) {
+  return driver.name
 }
