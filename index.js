@@ -19,3 +19,7 @@ const driversByRevenue = function (driver) {
     return driver1.revenue - driver2.revenue;
   })
 }
+
+const driversByName = function (driver) {
+  return driver.name.sort()
+}
