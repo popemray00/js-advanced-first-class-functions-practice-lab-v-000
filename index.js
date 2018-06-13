@@ -8,6 +8,6 @@ const callback = function (el, i, arr) {
 
 const logDriverNames = function (arr, callback) {
   for (const el of arr) {
-    cb(el, arr.indexOf(el), arr);
+    callback(el, arr.indexOf(el), arr);
   }
 };
