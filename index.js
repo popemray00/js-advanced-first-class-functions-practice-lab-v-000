@@ -5,4 +5,4 @@ const callback = function (el, i, arr) {
   console.log('----------------');
 };
 
-const logDriverNames.forEach(callback)
+const dName = logDriverNames.forEach(callback)
